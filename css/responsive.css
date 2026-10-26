@@ -1,0 +1,10 @@
+@media(min-width:600px){.grid.c2{grid-template-columns:1fr 1fr}.grid.c3{grid-template-columns:repeat(3,1fr)}.nav .f{display:inline}.nav .s{display:none}.nav a{font-size:.8rem}}
+@media(min-width:900px){
+body{padding-left:250px}
+.nav{top:0;bottom:auto;width:250px;height:100vh;padding:1rem .75rem;border-top:0;border-right:2px solid var(--bd);border-radius:0}
+.nav .brand{display:flex;align-items:center;gap:.5rem;color:#fff;font-weight:800;font-size:1.2rem;padding:.3rem .5rem 1rem}
+.nav ul{flex-direction:column;gap:.3rem}
+.nav a{flex-direction:row;gap:.7rem;justify-content:flex-start;padding:.6rem .8rem;border-radius:16px;font-size:1rem;min-height:48px;text-align:left;margin:0}
+#app{padding:2rem 2rem 3rem}
+.tour{padding-bottom:1rem}
+}
